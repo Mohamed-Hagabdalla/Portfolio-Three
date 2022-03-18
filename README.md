@@ -19,64 +19,18 @@ The user can use the program to manipulate the spreadsheet in any way they see f
 
 ![An image of the Python program](assets/images/Python%20Program.png)
 
-### Navigation Bar
-
-- This is located at the top right hand corner of each page.
-- It is identical across the three pages, thus allowing for easy navigation across the different pages. Plus, they can access any page without having to go back everytime.
-- Each navigation link is underlined when clicked, thus telling the user which webpage they are currently on.
-
-![An image of the navigation bar](assets/Screenshots/navigation-bar-screenshot.png)
-
-### Club Ethos
-
-- On the homepage, the user will find a club ethos section. This lists the health benefits of exercising at the gym. 
-- Provides them with an insight in exercising at the gym.
-
-![An image of the club ethos](assets/Screenshots/club-ethos-screenshot.png)
-
-### Meet up times
-
-- This section informs users of locations and times for meeting ups with other members and staff, if they are interested.
-- Provides them with the option to meet in person, if they have any further enquiries or general questions.
-
-![An image of the meet up times](assets/Screenshots/meet-up-times-screenshot.png)
-
-### Gallery
-
-- There is a gallery page, which is a page full of images of existing members exercising in the gym.
-- Shows the user what it is like to train at the gym.
-
-![An image of the Gallery](assets/Screenshots/gallery-screenshot.png)
-
-### Sign up form
-
-- There is a form on the third page that the user can fill out by providing their full name and email address.
-- They are also asked their preferred type of exercise and then they will be contacted in due time to discuss their options further.
-- Allows the user to be kept up to date and to speak with a member of staff in real time.
-
-![An image of the Sign up form](assets/Screenshots/sign-up-form-screenshot.png)
-
-### Footer
-
-- This contains links to social media sites for **The GYM** that open in a new tab, so the user does not have to go back to the website everytime.
-- Encourages the user to keep up to date with the latest news and offers.
-- It is located at the bottom of every page, so the user can access them easily, regardless of which page they are currently on.
-
-![An image of the footer](assets/Screenshots/footer-screenshot.png)
 
 ## Testing
 
-The navigation bar on the top right hand corner of the website was tested to ensure each link navigated to the correct webpage. There were 3 links and each one navigates to a different page. Each link navigates to its intended page with no problems. The social media links, located at the bottom of each webpage, also navigate to their own sites with no issues.
+In order to ensure the program ran smoothly with the spreadsheet, it was tested by inputting random data values. In order for a test to be successful, the data values should be added as rows to the Sales worksheet and this will then result in a new row of calculated values in the Surplus worksheet.
 
 ## Validator Testing
 
-To ensure the HTML and CSS codes ran smoothly and had no errors, they were both tested for validation. Testing for each code and more information on how they were tested are explained below in more detail.
+To ensure the Python program ran smoothly and had no errors, it was tested for validation. Testing for the code and more information on how it was tested are explained below in more detail.
 
-1. HTML
--  A warning message did occurr, suggesting that headers should be included in the gallery section. However, no errors were found when running the HTML code on the [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
+1. Python program 
+-  Warning messages did occurr, in relation to indentation and whitespaces. However, no errors were found when running the Python code on the [PEP8 online check](http://pep8online.com/)
 
-2. CSS
-- No errors were found when running the CSS code on the [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
 ## Unfixed Bugs
 
