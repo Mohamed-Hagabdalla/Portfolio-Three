@@ -1,5 +1,6 @@
 import gspread
 from google.oauth2.service_account import Credentials
+from pprint import pprint
 
 # SCOPE lists the APIs the program should access in order to run
 # SCOPE variable value will not change so it is known as a constant
@@ -70,7 +71,26 @@ def update_sales_worksheet(data):
     sales_worksheet.append_row(data)
     print("Sales worksheet updated successfully.\n")
 
+def calculate_surplus_data(sales_row):
+    """
+    Calculate surplus by subtracting sales from stock.
+    Positive surplus = too much stock (did not sell all)
+    Negative surplus = not enough stock (more required to match demand)
+    """
+    print("Calculating surplus data...\n")
+    stock = SHEET.worksheet("stock").get_all_values()
+    stock_row = stock[-1]
+    print(stock_row)
+    
 
-data = get_sales_data()
-sales_data = [int(num) for num in data]
-update_sales_worksheet(sales_data)
+def main():
+    """
+    Runs all program functions
+    """
+    data = get_sales_data()
+    sales_data = [int(num) for num in data]
+    update_sales_worksheet(sales_data)
+    calculate_surplus_data(sales_data)
+
+print("Welcome to Phone Shop Data Automation")
+main()
