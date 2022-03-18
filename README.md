@@ -4,25 +4,25 @@
 
 **Phone Shop** is a online Python program, linked to a spreadsheet. The purpose of the Python file is to manipulate the spreadsheet, whenever necessary. The spreadsheet lists the number of phones, by phone type, sold by a shop over the course of a week. It also calculates the surplus and number of stock for each phone type. The sales, surplus and stock are seperated into 3 seperate worksheets, but they are all on one spreadsheet. Each column represents a market day in the week. The numbers in the sales worksheet represents the number of each phone type sold on each market day.
 
-### Sales Worksheet
+## Sales Worksheet
 ![An image of the Sales worksheet](assets/images/Sales%20worksheet.png)
 
-### Surplus Worksheet
+## Surplus Worksheet
 ![An image of the Surplus worksheet](assets/images/Surplus%20worksheet.png)
 
-### Stock Worksheet
+## Stock Worksheet
 ![An image of the Stock worksheet](assets/images/Stock%20worksheet.png)
 
 ## Features
 
-The user can use the program to manipulate the spreadsheet in any way they see fit. The user is prompted to input their values below the 'Enter your data here:'. This enables them to add data values to the relevant worksheet, which will add rows of data into the worksheet. The program will then perform the necessary calculations that will produce the new surplus. The user can also press the 'run program' button at any point to restart the program, if they have entered incorrect data values but have not ran the program yet.
+The user can use the program to manipulate the spreadsheet in any way they see fit. The user is prompted to input their values below the 'Enter your data here: '. This enables them to add data values to the relevant worksheet, which will add rows of data into the worksheet. The program will then perform the necessary calculations that will produce the new surplus. The user can also press the 'run program' button at any point to restart the program, if they have entered incorrect data values.
 
 ![An image of the Python program](assets/images/Python%20Program.png)
 
 
 ## Testing
 
-In order to ensure the program ran smoothly with the spreadsheet, it was tested by inputting random data values. In order for a test to be successful, the data values should be added as rows to the Sales worksheet and this will then result in a new row of calculated values in the Surplus worksheet.
+In order to ensure the program ran smoothly with the spreadsheet, it was tested by inputting random data values. In order for a test to be successful, the data values should be added as rows to the Sales worksheet and this will then result in a new row of calculated values in the Surplus worksheet. As well as this, the user must input exactly 6 integer data values, seperated by commas. If the data does not meet any of this criteria, a message will appear informing the user that their data vales are invalid. The program will ask them to enter valid data beofre proceeding to the calculations.
 
 ## Validator Testing
 
@@ -36,10 +36,10 @@ To ensure the Python program ran smoothly and had no errors, it was tested for v
 
 One unfixed bug that occurred was calculating the stock numbers through the program the same way as the surplus. When inputting the sales data values, the program should calculate the surplus and stock number accordingly. This is the case for the surplus numbers. However, the terminal throws an error message in regards to the stock numbers. The code was obtained from the Code Institute Source Code, along with walkthough videos for guidance. Regardless of this, the stock numbers were not calculated. In future, more in-depth research and debugging will be conducted in order to prevent issues like this from occuring. Below are two screenshots of the terminal when running the program. The first shows the error message that occurs and the second is what the program should do when running the code.
 
-### Unfixed Bug - My Result
+## Unfixed Bug (My Result)
 ![An image of the unfixed bug](assets/images/Unfixed%20bug%20-%20my%20result.png)
 
-### Sales Worksheet
+## Unfixed Bug - (Solution)
 ![An image of the solution to the unfixed bug](assets/images/Unfixed%20bug%20-%20solution.png)
 
 ## Deployment
