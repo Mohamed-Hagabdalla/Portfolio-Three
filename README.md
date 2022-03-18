@@ -15,7 +15,7 @@
 
 ## Features
 
-The user can use the program to manipulate the spreadsheet in any way they see fit. The user is prompted to input their values below the 'Enter your data here:'. This enables them to add data values to the relevant worksheet, which will add rows of data into the worksheet. The program will then perform the necessary calculations that will produce the new surplus.
+The user can use the program to manipulate the spreadsheet in any way they see fit. The user is prompted to input their values below the 'Enter your data here:'. This enables them to add data values to the relevant worksheet, which will add rows of data into the worksheet. The program will then perform the necessary calculations that will produce the new surplus. The user can also press the 'run program' button at any point to restart the program, if they have entered incorrect data values but have not ran the program yet.
 
 ![An image of the Python program](assets/images/Python%20Program.png)
 
@@ -34,7 +34,13 @@ To ensure the Python program ran smoothly and had no errors, it was tested for v
 
 ## Unfixed Bugs
 
-One unfixed bug that occurred was the positioning of certain images used in the Gallery section. Some images were not presented as intended. This was due to the dimensions of the image not aligning well with other images.
+One unfixed bug that occurred was calculating the stock numbers through the program the same way as the surplus. When inputting the sales data values, the program should calculate the surplus and stock number accordingly. This is the case for the surplus numbers. However, the terminal throws an error message in regards to the stock numbers. The code was obtained from the Code Institute Source Code, along with walkthough videos for guidance. Regardless of this, the stock numbers were not calculated. In future, more in-depth research and debugging will be conducted in order to prevent issues like this from occuring. Below are two screenshots of the terminal when running the program. The first shows the error message that occurs and the second is what the program should do when running the code.
+
+### Unfixed Bug - My Result
+![An image of the unfixed bug](assets/images/Unfixed%20bug%20-%20my%20result.png)
+
+### Sales Worksheet
+![An image of the solution to the unfixed bug](assets/images/Unfixed%20bug%20-%20solution.png)
 
 ## Deployment
 
