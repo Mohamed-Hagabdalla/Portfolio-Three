@@ -2,7 +2,7 @@
 
 [View the live project here!](https://phone-shop-python.herokuapp.com/)
 
-**Phone Shop** is a back end Python file, linked to a spreadsheet. The purpose of the Python file is to manipulate the spreadsheet, whenever necessary. The spreadsheet lists the number of phones, by phone type, sold by a shop over the course of a week. It also calculates the surplus and number of stock for each phone type. The sales, surplus and stock are seperated into 3 seperate worksheets, but they are all on one spreadsheet.
+**Phone Shop** is a back end Python file, linked to a spreadsheet. The purpose of the Python file is to manipulate the spreadsheet, whenever necessary. The spreadsheet lists the number of phones, by phone type, sold by a shop over the course of a week. It also calculates the surplus and number of stock for each phone type. The sales, surplus and stock are seperated into 3 seperate worksheets, but they are all on one spreadsheet. Each column represents a market day in the week. The numbers in the sales worksheet represents the number of each phone type sold on each market day.
 
 ### Sales Worksheet
 ![An image of the Sales worksheet](assets/images/Sales%20worksheet.png)
@@ -15,7 +15,9 @@
 
 ## Features
 
-There are a few features that enhance the user's experience. For example, a navigation bar, club ethos, meet up times, images, sign up form and a footer.
+The user can use the program to manipulate the spreadsheet in any way they see fit. The user is prompted to input their values below the 'Enter your data here:'. This enables them to add data values to the relevant worksheet, which will add rows of data into the worksheet. The program will then perform the necessary calculations that will produce the new surplus.
+
+![An image of the Python program](assets/images/Python%20Program.png)
 
 ### Navigation Bar
 
