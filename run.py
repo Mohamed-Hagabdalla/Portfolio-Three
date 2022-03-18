@@ -1,6 +1,7 @@
+# Entire structure of the code obtained from the Source code, accompanied by Code Institute walkthrough videos
+
 import gspread
 from google.oauth2.service_account import Credentials
-from pprint import pprint
 
 # SCOPE lists the APIs the program should access in order to run
 # SCOPE variable value will not change so it is known as a constant
@@ -29,7 +30,7 @@ def get_sales_data():
         print("Data should be six numbers, seperated by commas.")
         print("Example: 1,2,3,4,5,6\n")  # '\n' =  extra line of space   
 
-        data_string = input("Enter your data here: ")
+        data_string = input("Enter your data here:\n")
         
         #split breaks up data at the commas
         #split returns broken up values as a list
