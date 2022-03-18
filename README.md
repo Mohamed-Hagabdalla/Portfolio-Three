@@ -44,15 +44,39 @@ One unfixed bug that occurred was calculating the stock numbers through the prog
 
 ## Deployment
 
-The website was deployed to GitHub pages. To successfully deploy a website, follow the steps below:
+The website was deployed to Heroku. To successfully deploy a website, follow the steps below:
 
-1. Ensure the relevant respository is loaded and select the settings tab.
-2. Navigate to the pages tab (the second-last option on the left hand side).
-3. Select the main branch, the root folder and click save.
-4. Refresh the page and a message should appear, telling you that your site has been published.
-5. The website has successfuly been deployed. 
+1. Go to the [Heroku website](https://www.heroku.com/).
+2. Sign up for a Heroku account, fill out your personal details and follow the link sent to your email to create your account.
+3. Accept their terms of service and this will direct you to your dashboard.
+4. Click on 'Create a new app'.
+5. Give your app/website a name in the 'App name' option, choose a region and then click 'create app'.
+6. Click on the settings tab.
+7. Click on the 'Reveal Config Vars' button.
+8. You will be asked to enter a 'KEY' and 'VALUE' (steps 9 and 10 are only necessary if your website has a JSON file).
+9. If you have a JSON file, enter its name in all caps in the 'KEY' field.
+10. Copy the entire JSON file and enter. its contents in the 'VALUE' field.
+11. Click Add to add this key/value pair.
+12. Enter PORT in the 'KEY' field.
+13. Enter 8000 in the 'VALUE' field.
+14. Click Add to add this key/value pair.
+15. Scroll down to the 'Buildpacks' section.
+16. Click the Add buildpack button.
+17. Select the Python buildpack and then click save changes.
+18. Click the Add buildpack button.
+19. Select the 'nodejs' buildpack and click save changes.
+20. Ensure the buildpacks are in the order that the Python buildpack is on top and 'nodejs' underneath.
+21. Scroll to the top of the page and click the deploy tab.
+22. Select Github as the deployment method.
+23. Click Connect to GitHub and sign into your GitHub account, if required.
+24. Search for your GitHub repository name.
+25. Click search and then connect to link the Heroku app to the GitHub repository code.
+26. Select the Manual deploy option by clicking on the button: Deploy Branch.
+27. Wait for the app to be built (a message will appear saying your app was successfully deployed).
+28. Click the View button.
+29. This will take you to your deployed link.
 
-The link to the live website can be found [here](https://mohamed-hagabdalla.github.io/Portfolio-One-New/)
+The link to the live website can be found [here](https://phone-shop-python.herokuapp.com/)
 
 
 ## Credits
