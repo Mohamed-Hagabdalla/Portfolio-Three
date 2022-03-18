@@ -142,6 +142,25 @@ def calculate_stock_data(data):
 
     return new_stock_data
 
+
+
+def calculate_sales_total(data):
+    """ 
+    Calculate the total number of sales, per week
+    for each phone
+    """
+    print("Calculating total number of sales...\n")
+    sales_total = []
+
+    for column in data:
+        int_column = [int(num) for num in column]
+        sum = sum(int_column)
+        sales_total.append(sum)
+
+    return sales_total
+
+
+
 def main():
     """
     Runs all program functions
